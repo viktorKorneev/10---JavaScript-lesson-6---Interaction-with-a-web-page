@@ -24,3 +24,7 @@ console.log(a);
 a.setAttribute("href", "https://developer.mozilla.org/ru/docs/Web/API/Document_Object_Model/Introduction")
 
 domItem.append(a)
+
+colorBtn.setAttribute("title", "Сгенерировать случайные цвета")
+console.log(colorBtn.getAttribute("title"));
+ 
