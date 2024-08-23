@@ -48,11 +48,16 @@ colorBtn.style.backgroundColor = "lightblue";
 colorBtn.addEventListener("click", function () {
   const items = document.querySelectorAll(".item");
   for (let i = 0; i < items.length; i++) {
-    const liElement = items[i];
+    items[i].style.color = getRandomColor()
+    
+    
+  }
+});
+
+function getRandomColor (){
     const red = Math.floor(Math.random() * 256)
     const green = Math.floor(Math.random() * 256)
     const blue = Math.floor(Math.random() * 256)
     const randomColor = `rgb(${red}, ${green}, ${blue})`
-    liElement.style.color = randomColor
-  }
-});
+    return randomColor
+}
