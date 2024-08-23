@@ -1,3 +1,7 @@
+window.addEventListener("load", function(){
+
+
+
 const title = document.getElementById("course-title");
 console.dir(title);
 
@@ -61,3 +65,9 @@ function getRandomColor (){
     const randomColor = `rgb(${red}, ${green}, ${blue})`
     return randomColor
 }
+
+})
+
+
+
+
