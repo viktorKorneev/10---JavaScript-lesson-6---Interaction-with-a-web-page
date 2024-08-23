@@ -15,3 +15,12 @@ console.log(items);
 console.log([1,2,3,4]);
 
 domItem.innerHTML = '<a href="https://developer.mozilla.org/ru/docs/Web/API/Document_Object_Model/Introduction">Взаимодействие с DOM ⬅</a>'
+
+
+title.textContent = "Обновленное содержание курса 📘"
+
+const a = document.createElement("a")
+console.log(a);
+a.setAttribute("href", "https://developer.mozilla.org/ru/docs/Web/API/Document_Object_Model/Introduction")
+
+domItem.append(a)
