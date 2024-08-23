@@ -28,3 +28,17 @@ domItem.append(a)
 colorBtn.setAttribute("title", "Сгенерировать случайные цвета")
 console.log(colorBtn.getAttribute("title"));
  
+title.setAttribute("class", "title")
+
+title.classList.remove("title")
+
+domItem.classList.add("current")
+
+colorBtn.style.padding = "5px 10px"
+colorBtn.style.color = "gray"
+colorBtn.style.backgroundColor = "lightblue"
+
+
+
+
+
